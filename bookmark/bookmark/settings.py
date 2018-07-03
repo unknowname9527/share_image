@@ -32,7 +32,6 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = (
     'account',
-    'images',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -40,6 +39,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'social.apps.django_app.default',
+    'images',
     'sorl.thumbnail',
 )
 MIDDLEWARE_CLASSES = (

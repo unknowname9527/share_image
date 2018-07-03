@@ -5,7 +5,7 @@
         <a href="{{ image.get_absolute_url }}">
             {% thumbnail image.image "300x300" crop="100%" as im %}
                 <a href="{{ image.get_absolute_url }}">
-                    ![]({{ im.url }})
+                    ({{ im.url }})
                 </a>
             {% endthumbnail %}
         </a>

@@ -1,6 +1,3 @@
-/**
- * Created by wangmingmin on 2018/6/30.
- */
 (function(){
     if(window.myBookmarklet!==undefined){
         myBookmarklet();

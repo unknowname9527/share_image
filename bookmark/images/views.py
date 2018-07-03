@@ -62,10 +62,6 @@ def image_list(request):
                   'images/image/list.html',
                    {'section': 'images', 'images': images})
 
-def image_detail(request, id, slug):
-    image = get_object_or_404(Image, id=id, slug=slug)
-    return render(request, 'images/image/detail.html', {'section':'images','image': image})
-
 @ajax_required
 @login_required
 @require_POST
